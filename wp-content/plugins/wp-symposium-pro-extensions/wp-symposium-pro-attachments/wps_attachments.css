@@ -1,0 +1,29 @@
+#wps_activity_image_upload {
+}
+.wps_activity_item_attachment {
+	cursor: pointer;
+	float: left;
+	margin-bottom:20px;
+	margin-right:10px;
+}
+.wps_activity_item_attachment_item {
+    margin-bottom:10px;
+}
+.wps_activity_item_attachment_full {
+	display:none;
+}
+.file-input-wrapper {
+}
+
+
+.wps_activity_delete_attachment:hover {
+	background-color: #fff;
+}
+
+.wps_activity_comment_image_upload_button {
+	float: right;
+}
+
+.wps_activity_document_attachment {
+	margin-bottom: 10px;
+}

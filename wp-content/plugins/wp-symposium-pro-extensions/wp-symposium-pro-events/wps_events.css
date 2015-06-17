@@ -1,0 +1,135 @@
+/* Event list */
+
+.wps_events_posts {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.wps_event_post {
+	border-top: 1px solid #dfdfdf;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	overflow: auto;
+	clear: both;
+}
+
+.wps_event_title {
+	width: 40%;
+	float: left;
+}
+
+.wps_event_count {
+	width: 10%;
+	text-align:center;
+	float: left;
+}
+
+.wps_event_freshness {
+	width: 20%;
+	float: left;
+}
+
+/* Events Table */
+
+#wps_events_table {
+	width:100%;
+	border:0px
+}
+
+#wps_events_table tr, #wps_events_table td {
+	border: 0px;
+}
+
+#wps_events_table_header_month {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#wps_events_table_header_next, #wps_events_table_header_prev {
+	font-size: 2.0em;
+}
+#wps_events_table_header_next a, #wps_events_table_header_prev a {
+	text-decoration: none;
+}
+#wps_events_table_header_prev {
+}
+#wps_events_table_header_next {
+	text-align: right;
+}
+
+#wps_events_table_header td {
+	border-bottom: 1px solid #afafaf;
+	text-align: center;
+}
+
+.wps_event_not_today {
+	text-align: center;
+}
+.wps_event_today {
+	text-align: center;
+	background-color: #dfdfdf;
+	font-weight: bold;
+}
+
+.wps_event_weekend {
+	background-color: #efefef;
+	padding: 0 !important;
+}
+
+.wps_event_content {
+	text-align: center;
+	font-size: 0.8em;
+	margin-left: 5px;
+	margin-right: 5px;
+	min-height: 20px;
+}
+
+
+/* Event item */
+
+#wps_event_post_title {
+	margin-bottom:20px;
+}
+
+#wps_event_datetime {
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+	font-size: 1.4em;
+}
+
+#wps_event_featured_image {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#wps_event_message_freshness {
+	font-style: italic;
+	margin-bottom:10px;
+}
+
+.wps_event_message_comment {
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid #dfdfdf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   	box-sizing: border-box;         /* Opera/IE 8+ */		
+}
+
+.wps_event_message_comment_author {
+	text-align: center;
+	float: left;
+	font-size: 0.8em;
+}
+
+#wps_event_comment {
+	width:100%;
+	height: 200px;
+	margin-bottom:10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}

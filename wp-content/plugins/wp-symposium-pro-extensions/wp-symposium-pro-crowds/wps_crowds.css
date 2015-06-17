@@ -1,0 +1,40 @@
+.wps_crowds_item {
+	clear: both;
+	padding: 2px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	overflow: auto;
+}
+.wps_crowds_item_row:hover {
+	background-color: #efefef;
+}
+.wps_crowds_item a {
+	text-decoration: none;
+}
+.wps_crowds_item_title {
+	float: left;
+}
+.wps_crowds_item_edit {
+	float: right;
+	margin-right: 5px;
+}
+.wps_crowds_item_delete {
+	float: right;
+}
+
+#wps_crowd_title {
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */		
+}
+
+#wps_crowd_create, #wps_crowd_update {
+	float: left;
+	margin-top: 10px;
+}
+#wps_crowd_close, #wps_crowd_cancel {
+	float: right;
+	margin-top: 10px;
+}

@@ -1,0 +1,252 @@
+<?php
+	get_header();
+ global  $px_theme_option;
+ global $withcomments;
+	$withcomments = true;
+ if(isset($px_theme_option['px_layout'])){ $px_layout = $px_theme_option['px_layout']; }else{ $px_layout = '';} 
+ 
+ if ( $px_layout <> '' and $px_layout  <> "none" and $px_layout  == 'left') :  ?>
+        <aside class="left-content col-md-3">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar($px_theme_option['px_sidebar_left']) ) : endif; ?>
+        </aside>
+<?php endif;?>
+        <div class="<?php px_default_pages_meta_content_class( $px_layout ); ?>">
+        <?php px_page_title();?>
+	       	<div class="pix-blog blog-medium">
+				<div class="div-section login-section">
+					<div class="section-title">
+						<i class="fa fa-search"></i><p>search result for "<?php if ( isset($_GET['s']) ) echo $_GET['s'];?>"</p>
+					</div>
+                 <!-- Blog Post Start -->
+				 <?php
+					
+					 //update front end post
+				if ( 'POST' == $_SERVER['REQUEST_METHOD'] && !empty( $_POST['action'] ) && $_POST['action'] == "frontend_post_add") 
+				{
+					
+					$content   = $_POST['post_content'];
+					$pid   = $_POST['postid'];
+					$title = substr($content, 0, 50);
+					$post_type = 'wps_forum_post';
+					
+					if($title==null && $content==null)
+						return false;
+						
+					//add_filter('wp_insert_post_data', 'update_post_slug');
+					//the array of arguements to be inserted with wp_insert_post
+					$update_post = array(
+					'ID'           => $pid,
+					'post_title'    => $title,
+					'post_content'  => $content 
+					);
+					
+					//print_r($update_post);
+					wp_update_post($update_post);
+					//remove_filter('wp_insert_post_data', array(&$this, 'update_post_slug'));
+				}
+
+				if ( isset($_GET['s']) )
+					$search_word = $_GET['s'];
+					$args=array('post_type'=>'wps_forum_post','taxonomy' => 'wps_forum','s'=>$search_word, 'orderby'=>'ASC','posts_per_page'=>'10');
+					$search_q=new WP_Query($args);
+				 ?>
+				 <div class="col-lg-3 col-md-4 col-xs-12 no-padding search-list">
+					<!--search result-->
+					
+					<!--club result-->
+					<div class="search-list-items">
+						<div class="notification-alert-brown"><i class="fa fa-shield"></i>clubs</div>
+						<div class="search-result-lists">
+					<?php
+						
+						$terms_arg = array(
+							'orderby'           => 'name', 
+							'order'             => 'ASC',
+							'hide_empty'        => false, 
+							'fields'            => 'all', 
+							'slug'              => '',
+							'parent'            => '',
+							'child_of'          => 0
+						); 
+						$terms = get_terms( 'wps_forum',$terms_arg);
+						
+						while ( $search_q->have_posts() ) : $search_q->the_post();
+						
+							$post_terms = wp_get_post_terms( get_the_ID(),'wps_forum');
+							
+							
+							foreach($post_terms as $post_id_val)
+								echo $post_id_val->term_id.'<br/>';
+								
+								//var_dump($post_terms);
+							foreach ( $terms as $term ) 
+							{
+								//$term_id = $term->term_id;
+								$term__parent_post_value=get_term_meta($term->term_id,'parentpostid', true);
+								//echo $term_id.'<br/>';
+								//clubs
+								//if (in_array($term_id, $post_terms)) 
+								{
+								//echo $term_id.'<br/>';
+						?>
+								<div class="search-result-list">
+									<?php //if(!$club) echo '<div class="default_ball_search"></div>'.$term->term_id;?>
+								</div>
+						<?php
+								}
+							}
+						endwhile;
+					?>
+						</div>
+					</div>
+					
+					<!--country result-->
+					<div class="search-list-items">
+						<div class="notification-alert-brown"><i class="fa fa-globe"></i>countries</div>
+						<div class="search-result-lists">
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-ng"></span>';?>nigeria (2).
+							</div>
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-za"></span>';?>south africa (5).
+							</div>
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-bd"></span>';?>bangladesh (12).
+							</div>
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-no"></span>';?>norway (10).
+							</div>
+						</div>
+					</div>
+					
+					<!--players result-->
+					<div class="search-list-items">
+						<div class="notification-alert-brown"><i class="fa fa-users"></i>players</div>
+						<div class="search-result-lists">
+							<div class="search-result-list">
+								no result found!
+							</div>
+						</div>
+					</div>
+					
+					<!--user result-->
+					<div class="search-list-items">
+						<div class="notification-alert-brown"><i class="fa fa-user"></i>users</div>
+						<div class="search-result-lists">
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-ng"></span>';?>nigeria (2).
+							</div>
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-za"></span>';?>south africa (5).
+							</div>
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-bd"></span>';?>bangladesh (12).
+							</div>
+							<div class="search-result-list">
+								<?php if(!$club) echo '<span class="flag flag-no"></span>';?>norway (10).
+							</div>
+						</div>
+					</div>
+					
+				 </div>
+				 
+				 <div class="col-lg-9 col-md-8 col-xs-12 search-result-content">
+                 <?php
+               		if ( $search_q->have_posts() ) {
+						 while ( $search_q->have_posts() ) : $search_q->the_post();
+							
+							echo '<div class="col-lg-12 col-md-12 col-xs-12 club-chat-sec" id="post-'.get_the_ID().'">';
+								echo '<div class="col-lg-2 col-md-2 col-xs-2">';
+									//echo '<a href="?page_id=1770">';
+										$update_post_id=get_the_ID();
+										update_model_panel($update_post_id);
+										echo get_the_author(); 
+									//echo '</a>';
+								echo '</div>';
+								
+								//post content
+								echo '<div class="col-lg-8 col-md-8 col-xs-8 thread-content no-padding">';
+								
+								//post title
+
+								echo '<div class="post-content" id="'.get_the_ID().'">';
+									the_content();
+								echo '</div>';
+								
+								echo '</div>';
+								
+								//post thumbnail
+								
+								echo '<div class="col-lg-2 col-md-1 col-xs-1 no-padding thread-thumbnail">';
+									echo '<a href="';
+									the_permalink();
+									echo '">';
+									if ( has_post_thumbnail() ) {
+										the_post_thumbnail(array(34,40));
+									}
+									echo '</a>';
+								echo '</div>';
+								
+								
+								//post like,comment and time
+								echo '<div class="col-lg-12 col-md-12 col-xs-12 thread-bottom">';
+								$post_time= get_the_modified_time('Y-m-j g:i:s');
+								
+								echo '<div class="col-lg-3 col-md-3 col-xs-3">'; if(function_exists('wp_ulike')) wp_ulike('get'); echo '</div>';
+								echo '<div class="col-lg-3 col-md-3 col-xs-3 shout-comment-icon" id="'.get_the_ID().'"><i class="fa fa-comment-o"></i>';comments_number('0','1','%'); echo '</div>';
+								echo '<div class="col-lg-3 col-md-3 col-xs-3"><i class="fa fa-clock-o"></i>';echo get_time_difference($post_time); echo '</div>';
+								
+								echo '<div class="col-lg-3 col-md-3 col-xs-3">';
+									
+									$update_post_id=get_the_ID();
+									
+									$author_id = get_the_author_meta('ID');
+									if ( is_user_logged_in() && $author_id==get_current_user_id()) {
+									echo '
+										<i id="'.$update_post_id.'" class="fa fa-pencil update-front-post"></i>
+									';
+									}
+								echo '</div>';
+								
+								echo '<div class="col-lg-12 col-md-12 col-xs-12 shout-comment" id="postid-'.get_the_ID().'">';
+									comments_template('comments.php',true);
+								echo '</div>';
+								
+								echo '</div></div>';
+								$count++;
+						endwhile;   
+					
+					}else{
+					?>
+                    <aside class="col-md-3">
+                		<div class="widget widget_search">
+                        	<header class="heading">
+                            	<h2 class="section_title heading-color"><?php _e( 'No results found.', 'Kings Club'); ?></h2>
+                            </header>
+                        	<?php get_search_form(); ?>
+                    	</div>
+                    </aside>
+                	<?php 
+					}
+					?>
+					</div>
+				</div>
+			</div>
+                <?php
+                	
+             	?>                    
+         </div>
+	  <?php
+		if ( $px_layout <> '' and $px_layout  <> "none" and $px_layout  == 'right') :  ?>
+		<aside class="left-content col-md-3">
+			<?php 
+            if(isset($px_theme_option['px_sidebar_right'])){
+                if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar($px_theme_option['px_sidebar_right']) ) : endif;
+            }else{
+                if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-1') ) : endif;
+            }
+      		?>
+		</aside>
+	<?php endif; ?>
+<?php get_footer();?>
+<!-- Columns End -->

@@ -1,0 +1,67 @@
+/* Search results */
+
+.wps_directory_item {
+	overflow: auto;
+	margin-bottom:15px;
+}
+
+.wps_directory_item_avatar {
+	padding-top:4px;
+	float: left;
+}
+
+.wps_directory_item_display_name {
+	font-size: 1.2em;
+}
+
+.wps_directory_item_friends_status {
+	font-size: 0.8em;
+}
+
+.wps_directory_item_last_active {
+	font-size: 0.8em;
+}
+
+.wps_directory_item_registered {
+	font-size: 0.8em;
+}
+
+.wps_directory_item_location {
+	font-size: 0.8em;
+}
+
+
+.wps_directory_item_profile_extension {
+}
+
+/* Search form */
+
+#wps_directory_search {
+	margin-bottom:20px;
+}
+
+#wps_directory_search_member {
+	min-height:50px;
+}
+.wps_directory_search_entry,
+.wps_directory_search_entry_field {
+	min-width: 280px;
+	margin-bottom:10px;
+}
+
+#wps_directory_search_label {
+	font-size: 0.8em;
+}
+
+h2.wps_directory_search_label_results {
+	margin-bottom:20px;
+}
+
+.wps_directory_search_post {
+	margin-bottom:10px;
+	overflow:auto;
+}
+
+.wps_directory_search_date {
+	font-size: 0.8em;
+}

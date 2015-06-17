@@ -1,0 +1,2244 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Follow My Blog Post v1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-16 09:11:34+0000\n"
+"Last-Translator: worldweb <phpdev5@worldwebtechnology.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: AUSTRALIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: follow-my-blog-post.php:124
+#: follow-my-blog-post.php:255
+#@ wpwfp
+msgid "Subscription Management"
+msgstr ""
+
+#: follow-my-blog-post.php:138
+#: follow-my-blog-post.php:269
+#: includes/admin/class-wpw-fp-admin.php:712
+#: includes/admin/forms/wpw-fp-users-list-authors.php:136
+#: includes/admin/forms/wpw-fp-users-list-authors.php:220
+#: includes/admin/forms/wpw-fp-users-list-terms.php:136
+#: includes/admin/forms/wpw-fp-users-list-terms.php:220
+#: includes/admin/forms/wpw-fp-users-list.php:136
+#: includes/admin/forms/wpw-fp-users-list.php:220
+#: includes/templates/unsubscribe/content.php:37
+#: includes/wpw-fp-template-functions.php:819
+#@ wpwfp
+msgid "Unsubscribe"
+msgstr ""
+
+#: follow-my-blog-post.php:168
+#: follow-my-blog-post.php:228
+#: follow-my-blog-post.php:355
+#: follow-my-blog-post.php:374
+#: follow-my-blog-post.php:509
+#: follow-my-blog-post.php:518
+#: follow-my-blog-post.php:524
+#: follow-my-blog-post.php:541
+#: follow-my-blog-post.php:549
+#: follow-my-blog-post.php:551
+#: includes/admin/class-wpw-fp-admin.php:197
+#@ wpwfp
+msgid "Follow"
+msgstr ""
+
+#: follow-my-blog-post.php:169
+#: follow-my-blog-post.php:356
+#: follow-my-blog-post.php:510
+#: follow-my-blog-post.php:519
+#: follow-my-blog-post.php:525
+#: includes/admin/class-wpw-fp-admin.php:198
+#@ wpwfp
+msgid "Following"
+msgstr ""
+
+#: follow-my-blog-post.php:170
+#: follow-my-blog-post.php:357
+#: follow-my-blog-post.php:511
+#: follow-my-blog-post.php:520
+#: follow-my-blog-post.php:526
+#: includes/admin/class-wpw-fp-admin.php:199
+#@ wpwfp
+msgid "Unfollow"
+msgstr ""
+
+#: follow-my-blog-post.php:178
+#: follow-my-blog-post.php:364
+#: follow-my-blog-post.php:513
+#: follow-my-blog-post.php:522
+#: follow-my-blog-post.php:528
+#@ wpwfp
+msgid "Followers"
+msgstr ""
+
+#: follow-my-blog-post.php:203
+#, php-format
+#@ wpwfp
+msgid "If you want to unsubscribe, click on %s"
+msgstr ""
+
+#: follow-my-blog-post.php:208
+#: follow-my-blog-post.php:543
+#, php-format
+#@ wpwfp
+msgid "New comment on %s by %s"
+msgstr ""
+
+#: follow-my-blog-post.php:213
+#, php-format
+#@ wpwfp
+msgid "New comment added on the post %s by %s, see below"
+msgstr ""
+
+#: follow-my-blog-post.php:218
+#: follow-my-blog-post.php:385
+#: follow-my-blog-post.php:545
+#: follow-my-blog-post.php:547
+#@ wpwfp
+msgid "[New Post]"
+msgstr ""
+
+#: follow-my-blog-post.php:223
+#: follow-my-blog-post.php:546
+#@ wpwfp
+msgid "New post added under the"
+msgstr ""
+
+#: follow-my-blog-post.php:223
+#: follow-my-blog-post.php:390
+#: follow-my-blog-post.php:540
+#: follow-my-blog-post.php:546
+#: follow-my-blog-post.php:548
+#@ wpwfp
+msgid "If you want to see page click below link"
+msgstr ""
+
+#: follow-my-blog-post.php:223
+#: follow-my-blog-post.php:390
+#: follow-my-blog-post.php:540
+#: follow-my-blog-post.php:546
+#: follow-my-blog-post.php:548
+#@ wpwfp
+msgid "for"
+msgstr ""
+
+#: follow-my-blog-post.php:234
+#: follow-my-blog-post.php:379
+#: follow-my-blog-post.php:542
+#: follow-my-blog-post.php:550
+#: follow-my-blog-post.php:552
+#@ wpwfp
+msgid "Hello"
+msgstr ""
+
+#: follow-my-blog-post.php:234
+#: follow-my-blog-post.php:550
+#@ wpwfp
+msgid "You recently followed the"
+msgstr ""
+
+#: follow-my-blog-post.php:234
+#: follow-my-blog-post.php:550
+#@ wpwfp
+msgid "This means you will receive an email when any new post is published under the"
+msgstr ""
+
+#: follow-my-blog-post.php:234
+#: follow-my-blog-post.php:379
+#: follow-my-blog-post.php:542
+#: follow-my-blog-post.php:550
+#: follow-my-blog-post.php:552
+#@ wpwfp
+msgid "To activate, click confirm below. If you did not request this, please feel free to disregard this notice!"
+msgstr ""
+
+#: follow-my-blog-post.php:234
+#: follow-my-blog-post.php:379
+#: follow-my-blog-post.php:542
+#: follow-my-blog-post.php:550
+#: follow-my-blog-post.php:552
+#@ wpwfp
+msgid "Thanks"
+msgstr ""
+
+#: follow-my-blog-post.php:240
+#: follow-my-blog-post.php:553
+#@ wpwfp
+msgid "Please confirm your unsubscription request"
+msgstr ""
+
+#: follow-my-blog-post.php:245
+#@ wpwfp
+msgid "has received a request to unsubscribe for this email address. To complete your request please click on the link below"
+msgstr ""
+
+#: follow-my-blog-post.php:245
+#: follow-my-blog-post.php:554
+#@ wpwfp
+msgid "If you did not request this, please feel free to disregard this notice!"
+msgstr ""
+
+#: follow-my-blog-post.php:379
+#: follow-my-blog-post.php:552
+#@ wpwfp
+msgid "You recently followed the author"
+msgstr ""
+
+#: follow-my-blog-post.php:379
+#: follow-my-blog-post.php:552
+#@ wpwfp
+msgid "This means you will receive an email when any new post is published under the author"
+msgstr ""
+
+#: follow-my-blog-post.php:390
+#: follow-my-blog-post.php:548
+#@ wpwfp
+msgid "New post added from the"
+msgstr ""
+
+#: follow-my-blog-post.php:538
+#@ wpwfp
+msgid "If you want to unsubscribe, click on"
+msgstr ""
+
+#: follow-my-blog-post.php:539
+#, php-format
+#@ wpwfp
+msgid "Post %s updated at %s"
+msgstr ""
+
+#: follow-my-blog-post.php:540
+#, php-format
+#@ wpwfp
+msgid "Post %s updated"
+msgstr ""
+
+#: follow-my-blog-post.php:542
+#@ wpwfp
+msgid "You recently followed below blog post. This means you will receive an email when post is updated."
+msgstr ""
+
+#: follow-my-blog-post.php:542
+#@ wpwfp
+msgid "Blog Post URL"
+msgstr ""
+
+#: follow-my-blog-post.php:544
+#, php-format
+#@ wpwfp
+msgid "New comment added on the post %s by %s, see below :"
+msgstr ""
+
+#: follow-my-blog-post.php:554
+#, php-format
+#@ wpwfp
+msgid "%s has received a request to unsubscribe for this email address. To complete your request please click on the link below:"
+msgstr ""
+
+#: follow-my-blog-post.php:589
+#: includes/admin/class-wpw-fp-admin.php:47
+#@ wpwfp
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:36
+#@ wpwfp
+msgid "Follow My Blog Post"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:38
+#@ wpwfp
+msgid "Follow My Blog Post - Followed Posts"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:38
+#: includes/admin/forms/wpw-fp-list.php:382
+#@ wpwfp
+msgid "Followed Posts"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:41
+#@ wpwfp
+msgid "Follow My Blog Post - Followed Terms"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:41
+#: includes/admin/forms/wpw-fp-list-terms.php:431
+#@ wpwfp
+msgid "Followed Terms"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:44
+#@ wpwfp
+msgid "Follow My Blog Post - Followed Authors"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:44
+#: includes/admin/forms/wpw-fp-list-authors.php:307
+#@ wpwfp
+msgid "Followed Authors"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:47
+#: includes/admin/forms/wpw-fp-plugin-settings.php:30
+#@ wpwfp
+msgid "Follow My Blog Post - Settings"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:202
+#@ wpwfp
+msgid "Follow {term_name}"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:203
+#@ wpwfp
+msgid "Following {term_name}"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:204
+#@ wpwfp
+msgid "Unfollow {term_name}"
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:534
+#@ wpwfp
+msgid "Email successfully sent to all followers."
+msgstr ""
+
+#: includes/admin/class-wpw-fp-admin.php:623
+#@ wpwfp
+msgid "Notify followers for this update:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:25
+#@ wpwfp
+msgid "Add A Follow My Blog Post Shortcode"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:26
+#@ wpwfp
+msgid "Close"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:34
+#@ wpwfp
+msgid "Select A Shortcode"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:37
+#: includes/admin/forms/wpw-fp-admin-popup.php:38
+#: includes/admin/forms/wpw-fp-admin-popup.php:108
+#: includes/admin/forms/wpw-fp-admin-popup.php:109
+#: includes/admin/forms/wpw-fp-admin-popup.php:145
+#@ wpwfp
+msgid "-- Select --"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:39
+#@ wpwfp
+msgid "Post Follow Button"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:40
+#@ wpwfp
+msgid "Term Follow button"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:41
+#@ wpwfp
+msgid "Author Follow button"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:42
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:26
+#@ wpwfp
+msgid "Posts I Follow"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:43
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:34
+#@ wpwfp
+msgid "Terms I Follow"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:44
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:34
+#@ wpwfp
+msgid "Authors I Follow"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:57
+#@ wpwfp
+msgid "Post ID:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:61
+#@ wpwfp
+msgid "Enter a post / page id. Leave it empty to use the current post id."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:66
+#: includes/admin/forms/wpw-fp-admin-popup.php:152
+#: includes/admin/forms/wpw-fp-admin-popup.php:200
+#@ wpwfp
+msgid "Disable Followers Count:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:70
+#: includes/admin/forms/wpw-fp-admin-popup.php:156
+#: includes/admin/forms/wpw-fp-admin-popup.php:204
+#@ wpwfp
+msgid "Check this box if you want to hide followers count."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:75
+#: includes/admin/forms/wpw-fp-admin-popup.php:161
+#: includes/admin/forms/wpw-fp-admin-popup.php:209
+#: includes/admin/forms/wpw-fp-general-settings.php:93
+#: includes/admin/forms/wpw-fp-general-settings.php:286
+#: includes/admin/forms/wpw-fp-general-settings.php:316
+#@ wpwfp
+msgid "Followers Counter Message:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:79
+#: includes/admin/forms/wpw-fp-admin-popup.php:165
+#: includes/admin/forms/wpw-fp-admin-popup.php:213
+#, php-format
+#@ wpwfp
+msgid "Here you can give the custom message to show followers count. Leave it empty to use the default one from the settings page.%s - displays the followers count."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:84
+#: includes/admin/forms/wpw-fp-admin-popup.php:170
+#: includes/admin/forms/wpw-fp-admin-popup.php:218
+#: includes/admin/forms/wpw-fp-general-settings.php:81
+#: includes/admin/forms/wpw-fp-general-settings.php:274
+#: includes/admin/forms/wpw-fp-general-settings.php:304
+#@ wpwfp
+msgid "Follow Button Text:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:90
+#@ wpwfp
+msgid "Enter Follow, Following and Unfollow button text respectively. Leave it empty to use the default one from the settings page."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:104
+#@ wpwfp
+msgid "Select Taxonomy:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:137
+#@ wpwfp
+msgid "Select a taxonomy like category, tags."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:142
+#@ wpwfp
+msgid "Select Term:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:147
+#@ wpwfp
+msgid "Displays the terms like category / tag based on selected taxonomy."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:176
+#, php-format
+#@ wpwfp
+msgid "Enter Follow, Following and Unfollow button text respectively. Leave it empty to use the default one from the settings page.%s - displays the title of the term."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:190
+#@ wpwfp
+msgid "Select Author:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:193
+#: includes/admin/forms/wpw-fp-admin-popup.php:194
+#@ wpwfp
+msgid "Choose an Author..."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:224
+#, php-format
+#@ wpwfp
+msgid "Enter Follow, Following and Unfollow button text respectively. Leave it empty to use the default one from the settings page.%s - displays the name of the author."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-admin-popup.php:233
+#@ wpwfp
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:21
+#: includes/admin/forms/wpw-fp-general-settings.php:22
+#: includes/admin/forms/wpw-fp-notification-settings.php:21
+#@ wpwfp
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:25
+#@ wpwfp
+msgid "Emails Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:36
+#: includes/admin/forms/wpw-fp-emails-settings.php:415
+#: includes/admin/forms/wpw-fp-general-settings.php:37
+#: includes/admin/forms/wpw-fp-general-settings.php:366
+#: includes/admin/forms/wpw-fp-notification-settings.php:36
+#: includes/admin/forms/wpw-fp-notification-settings.php:265
+#@ wpwfp
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:42
+#@ wpwfp
+msgid "Email Template:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:57
+#@ wpwfp
+msgid "Choose a template and Choose"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:57
+#: includes/admin/forms/wpw-fp-emails-settings.php:64
+#@ wpwfp
+msgid "Preview Test Email"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:57
+#@ wpwfp
+msgid "to see the email template."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:65
+#@ wpwfp
+msgid "Send Test Email"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:66
+#@ wpwfp
+msgid "Loading..."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:73
+#@ wpwfp
+msgid "From Email Address:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:77
+#@ wpwfp
+msgid "Example: Your Name &lt;sales@your-domain.com&gt;. These are the name and email address used as a from to followers emails. The email address is also being used as the"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:77
+#@ wpwfp
+msgid "Reply To"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:77
+#@ wpwfp
+msgid "email address when users send an email back."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:83
+#@ wpwfp
+msgid "Add Unsubscribe link to email Message:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:87
+#@ wpwfp
+msgid "When checked, Unsubscribe link with below custom message will be added to each subscription email Message."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:93
+#@ wpwfp
+msgid "Unsubscribe Message:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:97
+#, php-format
+#@ wpwfp
+msgid "Enter the custom Unsubscribe Message. Available template tags for unsubscribe message are : %s - displays the unsubscribe url for unsubscribe email"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:104
+#@ wpwfp
+msgid "Edit Post Subscription Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:110
+#: includes/admin/forms/wpw-fp-emails-settings.php:148
+#: includes/admin/forms/wpw-fp-emails-settings.php:189
+#: includes/admin/forms/wpw-fp-emails-settings.php:229
+#: includes/admin/forms/wpw-fp-emails-settings.php:267
+#: includes/admin/forms/wpw-fp-emails-settings.php:306
+#: includes/admin/forms/wpw-fp-emails-settings.php:345
+#: includes/admin/forms/wpw-fp-emails-settings.php:383
+#@ wpwfp
+msgid "Email Subject:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:114
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the followers of that post when post is updated. Available template tags for subject fields are : %s - displays the title of the post %s - displays the name of your site %s"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:120
+#: includes/admin/forms/wpw-fp-emails-settings.php:158
+#: includes/admin/forms/wpw-fp-emails-settings.php:199
+#: includes/admin/forms/wpw-fp-emails-settings.php:239
+#: includes/admin/forms/wpw-fp-emails-settings.php:277
+#: includes/admin/forms/wpw-fp-emails-settings.php:316
+#: includes/admin/forms/wpw-fp-emails-settings.php:355
+#: includes/admin/forms/wpw-fp-emails-settings.php:393
+#@ wpwfp
+msgid "Email Body:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:142
+#@ wpwfp
+msgid "New Post Term Subscription Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:152
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the followers of the selected terms when new post published. Available template tags for subject fields are : %s - displays the title of the post %s - displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:166
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the followers of the selected terms when new post published. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:167
+#: includes/admin/forms/wpw-fp-emails-settings.php:208
+#: includes/admin/forms/wpw-fp-emails-settings.php:248
+#: includes/admin/forms/wpw-fp-emails-settings.php:286
+#: includes/meta-boxes/meta-box-settings.php:50
+#: includes/meta-boxes/meta-box-settings.php:55
+#: includes/meta-boxes/meta-box-settings.php:62
+#: includes/meta-boxes/meta-box-settings.php:67
+#: includes/meta-boxes/meta-box-settings.php:77
+#: includes/meta-boxes/meta-box-settings.php:82
+#: includes/meta-boxes/meta-box-settings.php:91
+#: includes/meta-boxes/meta-box-settings.php:96
+#@ wpwfp
+msgid "displays the title of the post"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:168
+#: includes/admin/forms/wpw-fp-emails-settings.php:209
+#: includes/meta-boxes/meta-box-settings.php:68
+#: includes/meta-boxes/meta-box-settings.php:83
+#@ wpwfp
+msgid "displays the description of the post"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:169
+#: includes/admin/forms/wpw-fp-emails-settings.php:210
+#: includes/admin/forms/wpw-fp-emails-settings.php:287
+#: includes/meta-boxes/meta-box-settings.php:56
+#: includes/meta-boxes/meta-box-settings.php:69
+#: includes/meta-boxes/meta-box-settings.php:84
+#@ wpwfp
+msgid "displays the post title with link"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:170
+#: includes/admin/forms/wpw-fp-emails-settings.php:325
+#: includes/meta-boxes/meta-box-settings.php:70
+#@ wpwfp
+msgid "displays the title of the term"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:171
+#: includes/admin/forms/wpw-fp-emails-settings.php:326
+#: includes/meta-boxes/meta-box-settings.php:71
+#@ wpwfp
+msgid "displays the title of the taxonomy"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:172
+#: includes/admin/forms/wpw-fp-emails-settings.php:212
+#: includes/admin/forms/wpw-fp-emails-settings.php:249
+#: includes/admin/forms/wpw-fp-emails-settings.php:288
+#: includes/admin/forms/wpw-fp-emails-settings.php:327
+#: includes/admin/forms/wpw-fp-emails-settings.php:365
+#: includes/admin/forms/wpw-fp-emails-settings.php:403
+#: includes/meta-boxes/meta-box-settings.php:51
+#: includes/meta-boxes/meta-box-settings.php:57
+#: includes/meta-boxes/meta-box-settings.php:63
+#: includes/meta-boxes/meta-box-settings.php:72
+#: includes/meta-boxes/meta-box-settings.php:78
+#: includes/meta-boxes/meta-box-settings.php:86
+#: includes/meta-boxes/meta-box-settings.php:97
+#@ wpwfp
+msgid "displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:173
+#: includes/admin/forms/wpw-fp-emails-settings.php:213
+#: includes/admin/forms/wpw-fp-emails-settings.php:289
+#: includes/admin/forms/wpw-fp-emails-settings.php:328
+#: includes/admin/forms/wpw-fp-emails-settings.php:366
+#: includes/admin/forms/wpw-fp-emails-settings.php:404
+#: includes/meta-boxes/meta-box-settings.php:58
+#: includes/meta-boxes/meta-box-settings.php:73
+#: includes/meta-boxes/meta-box-settings.php:87
+#@ wpwfp
+msgid "displays the site name with link"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:183
+#@ wpwfp
+msgid "New Post Author Subscription Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:193
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the all followers of the author of that new post when new post published. Available template tags for subject fields are : %s - displays the title of the post %s - displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:207
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the all followers of the author of that new post when new post published. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:211
+#: includes/admin/forms/wpw-fp-emails-settings.php:364
+#: includes/meta-boxes/meta-box-settings.php:85
+#@ wpwfp
+msgid "displays the name of the author"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:223
+#@ wpwfp
+msgid "Comment Subscription Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:233
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the followers when comment is added and get approved. Available template tags for subject fields are : %s - displays the title of the post %s - displays the user name"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:247
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the followers when comment is added and get approved. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:250
+#: includes/meta-boxes/meta-box-settings.php:98
+#@ wpwfp
+msgid "displays the user name"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:251
+#: includes/meta-boxes/meta-box-settings.php:99
+#@ wpwfp
+msgid "displays the comment text of the post"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:261
+#@ wpwfp
+msgid "Posts Confirmation Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:271
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the user for confirming his email address for subscription for post / page. Available template tags for subject fields are : %s - displays the title of the post %s - displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:285
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the user for confirming his email address for subscription for post / page. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:290
+#: includes/admin/forms/wpw-fp-emails-settings.php:329
+#: includes/admin/forms/wpw-fp-emails-settings.php:367
+#@ wpwfp
+msgid "displays the subscribe url for confirm email subscription."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:300
+#@ wpwfp
+msgid "Terms Confirmation Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:310
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the user for confirming his email address for subscription of any terms. Available template tags for subject fields are : %s - displays the title of the term %s - displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:324
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the user for confirming his email address for subscription of any terms. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:339
+#@ wpwfp
+msgid "Authors Confirmation Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:349
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the user for confirming his email address for subscription of any authors. Available template tags for subject fields are : %s - displays the name of author %s - displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:363
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the user for confirming his email address for subscription of any authors. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:377
+#@ wpwfp
+msgid "Unsubscribe Confirmation Email Template"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:387
+#, php-format
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the user for confirming his email address for unsubscription. Available template tags for subject fields are : %s - displays the followers email %s - displays the name of your site"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:401
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the user for confirming his email address for unsubscription. The available tags are:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:402
+#@ wpwfp
+msgid "displays the followers email"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-emails-settings.php:405
+#@ wpwfp
+msgid "displays the confirm url for confirm email unsubscription."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:26
+#@ wpwfp
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:44
+#@ wpwfp
+msgid "Delete Options:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:48
+#@ wpwfp
+msgid "If you don't want to use the Follow My Blog Post Plugin on your site anymore, you can check that box. This makes sure, that all the settings and tables are being deleted from the database when you deactivate the plugin."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:54
+#@ wpwfp
+msgid "Disable Guest Followes:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:58
+#@ wpwfp
+msgid "Guests (non-logged-in users) have the permission to follow any post by default. If you check this option, then Follow button would not be displayed for Guest users."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:64
+#@ wpwfp
+msgid "Enable Email Logs:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:68
+#@ wpwfp
+msgid "Check this box if you want to log all emails into database. Enabling this will add a new column on followers listing page to view the log entries."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:68
+#: includes/admin/forms/wpw-fp-notification-settings.php:181
+#@ wpwfp
+msgid "Note"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:68
+#@ wpwfp
+msgid "It is"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:68
+#@ wpwfp
+msgid "not recommended"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:68
+#@ wpwfp
+msgid "to enable this option, as this will slow down the plugin."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:75
+#@ wpwfp
+msgid "Posts Follow Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:87
+#@ wpwfp
+msgid "Enter Follow, Following and Unfollow button text respectively. Default button text are Follow, Following and Unfollow respectively."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:97
+#, php-format
+#@ wpwfp
+msgid "Here you can give the custom message to show followers count for Post / Page. Leave it blank to hide the followers counter. %s - displays the followers count."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:103
+#@ wpwfp
+msgid "Follow Button Location:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:108
+#@ wpwfp
+msgid "After Content"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:108
+#@ wpwfp
+msgid "Before Content"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:119
+#@ wpwfp
+msgid "Select the location where you want the follow button being displayed."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:125
+#@ wpwfp
+msgid "Follow Button Position:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:130
+#@ wpwfp
+msgid "Left"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:130
+#@ wpwfp
+msgid "Right"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:141
+#@ wpwfp
+msgid "Select the position where you want the follow button being displayed."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:147
+#@ wpwfp
+msgid "Enable Follow Button On:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:176
+#: includes/admin/forms/wpw-fp-notification-settings.php:88
+#@ wpwfp
+msgid "Choose individual entries"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:183
+#: includes/admin/forms/wpw-fp-notification-settings.php:95
+#@ wpwfp
+msgid "Selected"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:210
+#: includes/admin/forms/wpw-fp-notification-settings.php:122
+#@ wpwfp
+msgid "Check all"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:210
+#: includes/admin/forms/wpw-fp-notification-settings.php:122
+#@ wpwfp
+msgid "Uncheck all"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:214
+#: includes/admin/forms/wpw-fp-notification-settings.php:126
+#@ wpwfp
+msgid "Done"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:245
+#: includes/admin/forms/wpw-fp-notification-settings.php:157
+#@ wpwfp
+msgid "No Entries for this type."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:260
+#@ wpwfp
+msgid "Check each of the post types on which you want the follow button being displayed. You will see a list of all available content types from your site. If you click on the checkbox beside a content type, this means that all content of this type will have the follow button added automatically. Click on \"choose individual entries\" and a pop up window will appear from which you can select individual posts on which you want to have the follow button being added."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:268
+#@ wpwfp
+msgid "Terms Follow Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:280
+#, php-format
+#@ wpwfp
+msgid "Enter Follow, Following and Unfollow button text respectively. Default button text are Follow, Following and Unfollow respectively. %s - displays the title of the term."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:290
+#, php-format
+#@ wpwfp
+msgid "Here you can give the custom message to show followers count for Terms. Leave it blank to hide the followers counter.%s - displays the followers count."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:298
+#@ wpwfp
+msgid "Authors Follow Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:310
+#, php-format
+#@ wpwfp
+msgid "Enter Follow, Following and Unfollow button text respectively. Default button text are Follow, Following and Unfollow respectively. %s - displays the name of the author."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:320
+#, php-format
+#@ wpwfp
+msgid "Here you can give the custom message to show followers count for Authors. Leave it blank to hide the followers counter.%s - displays the followers count."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:328
+#@ wpwfp
+msgid "Pages Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:334
+#@ wpwfp
+msgid "Subscription Manage Page:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:338
+#: includes/admin/forms/wpw-fp-general-settings.php:353
+#@ wpwfp
+msgid "--Select A Page--"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:343
+#@ wpwfp
+msgid "This is subscription manage page whcih shows followed posts list and followed terms list to user."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:349
+#@ wpwfp
+msgid "Unsubscription Manage Page:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-general-settings.php:358
+#@ wpwfp
+msgid "This is unsubscription manage Page whcih contains the form to unsubscribe the email address for the users."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:65
+#: includes/admin/forms/wpw-fp-list-authors.php:144
+#: includes/admin/forms/wpw-fp-list-terms.php:76
+#: includes/admin/forms/wpw-fp-list-terms.php:193
+#: includes/admin/forms/wpw-fp-list.php:67
+#: includes/admin/forms/wpw-fp-list.php:162
+#@ wpwfp
+msgid "View Followers"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:113
+#: includes/admin/forms/wpw-fp-list-authors.php:183
+#: includes/admin/forms/wpw-fp-list-terms.php:162
+#: includes/admin/forms/wpw-fp-list-terms.php:236
+#: includes/admin/forms/wpw-fp-list.php:131
+#: includes/admin/forms/wpw-fp-list.php:203
+#: includes/admin/forms/wpw-fp-users-list-authors.php:141
+#: includes/admin/forms/wpw-fp-users-list-authors.php:221
+#: includes/admin/forms/wpw-fp-users-list-terms.php:141
+#: includes/admin/forms/wpw-fp-users-list-terms.php:221
+#: includes/admin/forms/wpw-fp-users-list.php:141
+#: includes/admin/forms/wpw-fp-users-list.php:221
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:110
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:181
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:110
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:181
+#: includes/admin/forms/wpw-fp-users-logs-list.php:110
+#: includes/admin/forms/wpw-fp-users-logs-list.php:181
+#: includes/meta-boxes/meta-box-class.php:301
+#: includes/meta-boxes/meta-box-class.php:1016
+#: includes/meta-boxes/meta-box-class.php:1067
+#: includes/meta-boxes/meta-box-class.php:1079
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:38
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:30
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:38
+#@ wpwfp
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:143
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:57
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:122
+#@ wpwfp
+msgid "Author Name"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:168
+#@ wpwfp
+msgid "No Followed Authors Found."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:304
+#: includes/admin/forms/wpw-fp-list-terms.php:428
+#: includes/admin/forms/wpw-fp-list.php:379
+#: includes/admin/forms/wpw-fp-plugin-settings.php:28
+#: includes/admin/forms/wpw-fp-users-list-authors.php:414
+#: includes/admin/forms/wpw-fp-users-list-terms.php:415
+#: includes/admin/forms/wpw-fp-users-list.php:414
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:316
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:317
+#: includes/admin/forms/wpw-fp-users-logs-list.php:315
+#@ wpwfp
+msgid "WP Web Logo"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:320
+#: includes/admin/forms/wpw-fp-list-terms.php:444
+#: includes/admin/forms/wpw-fp-list.php:395
+#: includes/admin/forms/wpw-fp-users-list-authors.php:431
+#: includes/admin/forms/wpw-fp-users-list-terms.php:432
+#: includes/admin/forms/wpw-fp-users-list.php:432
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:332
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:333
+#: includes/admin/forms/wpw-fp-users-logs-list.php:331
+#@ wpwfp
+msgid "Record (s) deleted successfully."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-authors.php:335
+#: includes/admin/forms/wpw-fp-list-terms.php:459
+#: includes/admin/forms/wpw-fp-list.php:410
+#: includes/admin/forms/wpw-fp-users-list-authors.php:447
+#: includes/admin/forms/wpw-fp-users-list-terms.php:449
+#: includes/admin/forms/wpw-fp-users-list.php:448
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:359
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:361
+#: includes/admin/forms/wpw-fp-users-logs-list.php:358
+#@ wpwfp
+msgid "Search"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-terms.php:192
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:57
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:141
+#@ wpwfp
+msgid "Term Title"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-terms.php:194
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:58
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:142
+#@ wpwfp
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-terms.php:195
+#: includes/admin/forms/wpw-fp-list.php:163
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:50
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:118
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:59
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:143
+#@ wpwfp
+msgid "Post Type"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-terms.php:221
+#@ wpwfp
+msgid "No Followed Terms Found."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-terms.php:265
+#: includes/admin/forms/wpw-fp-list-terms.php:267
+#@ wpwfp
+msgid "Select a Taxonomy"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list-terms.php:305
+#: includes/admin/forms/wpw-fp-list.php:256
+#: includes/admin/forms/wpw-fp-users-list-authors.php:280
+#: includes/admin/forms/wpw-fp-users-list-terms.php:280
+#: includes/admin/forms/wpw-fp-users-list.php:280
+#@ wpwfp
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list.php:161
+#@ wpwfp
+msgid "Post Name"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list.php:188
+#@ wpwfp
+msgid "No Followed Posts Found."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-list.php:232
+#: includes/admin/forms/wpw-fp-list.php:234
+#@ wpwfp
+msgid "Select a Post Type"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:25
+#@ wpwfp
+msgid "Notification Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:59
+#@ wpwfp
+msgid "Send Emails for:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:171
+#@ wpwfp
+msgid "Check each of the post types for which you want the follows should receive an emails when any post is updated. You will see a list of all available content types from your site. If you click on the checkbox beside a content type, this means when any post of selected post type gets updated, all followers of that post will get an notification email. Click on"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:171
+#@ wpwfp
+msgid "choose individual entries"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:171
+#@ wpwfp
+msgid "and a pop up window will appear from which you can select individual posts for which notification emails will be send to followers."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:177
+#@ wpwfp
+msgid "Require Email Confirmation:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:181
+#@ wpwfp
+msgid "When checked, Registered users will be sent a confirmation email to subscribe, and will only be added once they confirmed the subscription."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:181
+#@ wpwfp
+msgid "Guest users will always need to confirm their email first for subscription. This setting is just for registered users."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:187
+#@ wpwfp
+msgid "Recipients Per Email:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:191
+#@ wpwfp
+msgid "Restrict the number of recipients per email. Leave it 0 for unlimited."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:198
+#@ wpwfp
+msgid "Posts Notification Events"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:204
+#: includes/admin/forms/wpw-fp-notification-settings.php:225
+#: includes/admin/forms/wpw-fp-notification-settings.php:248
+#@ wpwfp
+msgid "Trigger Emails:"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:208
+#: includes/admin/forms/wpw-fp-notification-settings.php:231
+#: includes/admin/forms/wpw-fp-notification-settings.php:254
+#@ wpwfp
+msgid "When post / page updated"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:210
+#: includes/admin/forms/wpw-fp-notification-settings.php:233
+#: includes/admin/forms/wpw-fp-notification-settings.php:256
+#@ wpwfp
+msgid "When new comment addded"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:211
+#: includes/admin/forms/wpw-fp-notification-settings.php:234
+#: includes/admin/forms/wpw-fp-notification-settings.php:257
+#@ wpwfp
+msgid "With an Trigger Emails, you can automatically send emails at specified event performed."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:219
+#@ wpwfp
+msgid "Terms Notification events"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:229
+#: includes/admin/forms/wpw-fp-notification-settings.php:252
+#@ wpwfp
+msgid "When new post published"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-notification-settings.php:242
+#@ wpwfp
+msgid "Authors Notification events"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-plugin-settings.php:33
+#: includes/admin/forms/wpw-fp-plugin-settings.php:51
+#@ wpwfp
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-plugin-settings.php:38
+#@ wpwfp
+msgid "All Settings Reset Successfully."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-plugin-settings.php:43
+#@ wpwfp
+msgid "Changes Saved."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-plugin-settings.php:90
+#@ wpwfp
+msgid "General"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-plugin-settings.php:91
+#@ wpwfp
+msgid "Notification"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-plugin-settings.php:92
+#@ wpwfp
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:78
+#: includes/admin/forms/wpw-fp-users-list-terms.php:78
+#: includes/admin/forms/wpw-fp-users-list.php:78
+#@ wpwfp
+msgid "View Log"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:101
+#: includes/admin/forms/wpw-fp-users-list-terms.php:101
+#: includes/admin/forms/wpw-fp-users-list.php:101
+#@ wpwfp
+msgid "Registered User"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:101
+#: includes/admin/forms/wpw-fp-users-list-terms.php:101
+#: includes/admin/forms/wpw-fp-users-list.php:101
+#@ wpwfp
+msgid "Guest"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:111
+#: includes/admin/forms/wpw-fp-users-list-terms.php:111
+#: includes/admin/forms/wpw-fp-users-list.php:111
+#@ wpwfp
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:114
+#: includes/admin/forms/wpw-fp-users-list-terms.php:114
+#: includes/admin/forms/wpw-fp-users-list.php:114
+#@ wpwfp
+msgid "No"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:138
+#: includes/admin/forms/wpw-fp-users-list-authors.php:219
+#: includes/admin/forms/wpw-fp-users-list-terms.php:138
+#: includes/admin/forms/wpw-fp-users-list-terms.php:219
+#: includes/admin/forms/wpw-fp-users-list.php:138
+#: includes/admin/forms/wpw-fp-users-list.php:219
+#@ wpwfp
+msgid "Subscribe"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:173
+#: includes/admin/forms/wpw-fp-users-list-terms.php:173
+#: includes/admin/forms/wpw-fp-users-list.php:173
+#@ wpwfp
+msgid "User Email"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:174
+#: includes/admin/forms/wpw-fp-users-list-terms.php:174
+#: includes/admin/forms/wpw-fp-users-list.php:174
+#@ wpwfp
+msgid "User Type"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:175
+#: includes/admin/forms/wpw-fp-users-list-authors.php:241
+#: includes/admin/forms/wpw-fp-users-list-terms.php:175
+#: includes/admin/forms/wpw-fp-users-list-terms.php:241
+#: includes/admin/forms/wpw-fp-users-list.php:175
+#: includes/admin/forms/wpw-fp-users-list.php:241
+#@ wpwfp
+msgid "Subscribed"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:178
+#: includes/admin/forms/wpw-fp-users-list-terms.php:178
+#: includes/admin/forms/wpw-fp-users-list.php:178
+#@ wpwfp
+msgid "View Logs"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:204
+#: includes/admin/forms/wpw-fp-users-list-terms.php:204
+#: includes/admin/forms/wpw-fp-users-list.php:204
+#@ wpwfp
+msgid "No Users Found."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:242
+#: includes/admin/forms/wpw-fp-users-list-terms.php:242
+#: includes/admin/forms/wpw-fp-users-list.php:242
+#@ wpwfp
+msgid "Unsubscribed"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:247
+#: includes/admin/forms/wpw-fp-users-list-authors.php:249
+#: includes/admin/forms/wpw-fp-users-list-terms.php:247
+#: includes/admin/forms/wpw-fp-users-list-terms.php:249
+#: includes/admin/forms/wpw-fp-users-list.php:247
+#: includes/admin/forms/wpw-fp-users-list.php:249
+#@ wpwfp
+msgid "All"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:417
+#: includes/admin/forms/wpw-fp-users-list-terms.php:418
+#: includes/admin/forms/wpw-fp-users-list.php:417
+#, php-format
+#@ wpwfp
+msgid "Followers For %s"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-list-authors.php:418
+#: includes/admin/forms/wpw-fp-users-list-terms.php:419
+#: includes/admin/forms/wpw-fp-users-list.php:418
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:320
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:321
+#: includes/admin/forms/wpw-fp-users-logs-list.php:319
+#@ wpwfp
+msgid "Go Back"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:140
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:140
+#: includes/admin/forms/wpw-fp-users-logs-list.php:140
+#@ wpwfp
+msgid "Email Subject"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:141
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:141
+#: includes/admin/forms/wpw-fp-users-logs-list.php:141
+#@ wpwfp
+msgid "Email Body"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:142
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:142
+#: includes/admin/forms/wpw-fp-users-logs-list.php:142
+#@ wpwfp
+msgid "Post Date"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:166
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:166
+#: includes/admin/forms/wpw-fp-users-logs-list.php:166
+#@ wpwfp
+msgid "No User Logs Found."
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:319
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:320
+#: includes/admin/forms/wpw-fp-users-logs-list.php:318
+#@ wpwfp
+msgid "Followers Email logs"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:342
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:343
+#: includes/admin/forms/wpw-fp-users-logs-list.php:341
+#@ wpwfp
+msgid "User E-Mail :"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-authors.php:345
+#@ wpwfp
+msgid "Author Name :"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list-terms.php:346
+#@ wpwfp
+msgid "Term Title :"
+msgstr ""
+
+#: includes/admin/forms/wpw-fp-users-logs-list.php:344
+#@ wpwfp
+msgid "Post Title :"
+msgstr ""
+
+#: includes/class-wpw-fp-model.php:484
+#@ wpwfp
+msgid "Hello world!"
+msgstr ""
+
+#: includes/class-wpw-fp-model.php:1420
+#: includes/class-wpw-fp-model.php:1478
+#: includes/class-wpw-fp-model.php:1545
+#@ wpwfp
+msgid "Confirm Follow"
+msgstr ""
+
+#: includes/class-wpw-fp-model.php:1596
+#@ wpwfp
+msgid "Confirm Unsubscription"
+msgstr ""
+
+#: includes/class-wpw-fp-model.php:2251
+#@ wpwfp
+msgid "HTML Template"
+msgstr ""
+
+#: includes/class-wpw-fp-model.php:2252
+#@ wpwfp
+msgid "No template, plain text only"
+msgstr ""
+
+#: includes/class-wpw-fp-pagination-public.php:26
+#@ wpwfp
+msgid "Next"
+msgstr ""
+
+#: includes/class-wpw-fp-pagination-public.php:27
+#@ wpwfp
+msgid "Previous"
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:179
+#@ wpwfp
+msgid "Your email is unsubscribed successfully."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:184
+#: includes/class-wpw-fp-public.php:1073
+#@ wpwfp
+msgid "Sorry, This email id is not exists in our system."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:268
+#: includes/class-wpw-fp-public.php:360
+#: includes/class-wpw-fp-public.php:445
+#: includes/class-wpw-fp-public.php:647
+#: includes/class-wpw-fp-public.php:667
+#: includes/class-wpw-fp-public.php:779
+#: includes/class-wpw-fp-public.php:805
+#: includes/class-wpw-fp-public.php:907
+#: includes/class-wpw-fp-public.php:927
+#@ wpwfp
+msgid "Your email is subscribed successfully."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:280
+#: includes/class-wpw-fp-public.php:664
+#@ wpwfp
+msgid "Your email is already subscribed for this post."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:378
+#: includes/class-wpw-fp-public.php:802
+#@ wpwfp
+msgid "Your email is already subscribed for this term."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:457
+#: includes/class-wpw-fp-public.php:924
+#@ wpwfp
+msgid "Your email is already subscribed for this author."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:612
+#: includes/class-wpw-fp-public.php:738
+#: includes/class-wpw-fp-public.php:872
+#: includes/class-wpw-fp-scripts.php:158
+#@ wpwfp
+msgid "Please check your email inbox to confirm subscribtion."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:1068
+#@ wpwfp
+msgid "Please check your email inbox to confirm unsubscribtion."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:1080
+#: includes/class-wpw-fp-scripts.php:156
+#@ wpwfp
+msgid "Please enter valid email."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:1086
+#: includes/class-wpw-fp-scripts.php:155
+#@ wpwfp
+msgid "Please enter email."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:1109
+#: includes/templates/subscribe-manage/follow-posts.php:88
+#@ wpwfp
+msgid "You have not follow any posts yet."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:1130
+#: includes/templates/subscribe-manage/follow-terms.php:88
+#@ wpwfp
+msgid "You have not follow any terms yet."
+msgstr ""
+
+#: includes/class-wpw-fp-public.php:1151
+#: includes/templates/subscribe-manage/follow-authors.php:88
+#@ wpwfp
+msgid "You have not follow any authors yet."
+msgstr ""
+
+#: includes/class-wpw-fp-scripts.php:60
+#@ wpwfp
+msgid "Click OK to reset all options. All settings will be lost!"
+msgstr ""
+
+#: includes/class-wpw-fp-scripts.php:61
+#@ wpwfp
+msgid "Test email has been sent successfully."
+msgstr ""
+
+#: includes/class-wpw-fp-scripts.php:62
+#@ wpwfp
+msgid "Test email could not sent."
+msgstr ""
+
+#: includes/class-wpw-fp-scripts.php:159
+#@ wpwfp
+msgid "Processing"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:194
+#@ wpwfp
+msgid "You must have at least one file."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:301
+#@ wpwfp
+msgid "Delete this image"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:406
+#@ wpwfp
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:701
+#: includes/meta-boxes/meta-box-class.php:757
+#@ wpwfp
+msgid "Remove"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:714
+#@ wpwfp
+msgid "Add"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1011
+#@ wpwfp
+msgid "Uploaded files"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1023
+#@ wpwfp
+msgid "Upload new files"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1029
+#: includes/meta-boxes/meta-box-class.php:1085
+#@ wpwfp
+msgid "Add more files"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1066
+#: includes/meta-boxes/meta-box-class.php:1078
+#@ wpwfp
+msgid "Upload a File"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1114
+#@ wpwfp
+msgid "Delete Image"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1119
+#@ wpwfp
+msgid "Upload Image"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-class.php:1146
+#@ wpwfp
+msgid "Select a color"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:26
+#@ wpwfp
+msgid "Follow My Blog Post Settings"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:40
+#@ wpwfp
+msgid "Followers Count:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:43
+#@ wpwfp
+msgid "Disable Post Follow Button:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:43
+#@ wpwfp
+msgid "Check this box if you want to hide the post follow button for this post. Leave it unchecked if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:46
+#@ wpwfp
+msgid "Disable Email Notification:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:46
+#@ wpwfp
+msgid "Check this box if you want to disable all type of Email Notifications for this post. Leave it unchecked if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:49
+#@ wpwfp
+msgid "Edit Post Subscription Email Subject:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:49
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the followers when post is updated. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:54
+#@ wpwfp
+msgid "Edit Post Subscription Email Body:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:54
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the followers when post is updated. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:61
+#@ wpwfp
+msgid "New Post Term Subscription Email Subject:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:61
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the followers when new post published. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:66
+#@ wpwfp
+msgid "New Post Term Subscription Email Body:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:66
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the followers when new post published. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:76
+#@ wpwfp
+msgid "New Post Author Subscription Email Subject:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:76
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the all followers of the author of that new post when new post published. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:81
+#@ wpwfp
+msgid "New Post Author Subscription Email Body:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:81
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the all followers of the author of that new post when new post published. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:90
+#@ wpwfp
+msgid "Comment Subscription Email Subject:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:90
+#@ wpwfp
+msgid "This is the subject of the email that will be sent to the followers when comment is added and get approved.. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:92
+#@ wpwfp
+msgid "displays the user name<br />"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:95
+#@ wpwfp
+msgid "Comment Subscription Email Body:"
+msgstr ""
+
+#: includes/meta-boxes/meta-box-settings.php:95
+#@ wpwfp
+msgid "This is the body, main content of the email that will be sent to the followers when comment is added and get approved. Leave it blank if you want to use the default settings from the settings page."
+msgstr ""
+
+#: includes/templates/follow-author/guest.php:32
+#: includes/templates/follow-post/guest.php:38
+#: includes/templates/follow-term/guest.php:32
+#@ wpwfp
+msgid "X"
+msgstr ""
+
+#: includes/templates/follow-author/guest.php:41
+#: includes/templates/follow-post/guest.php:47
+#: includes/templates/follow-term/guest.php:41
+#@ wpwfp
+msgid "E-mail :"
+msgstr ""
+
+#: includes/templates/follow-author/guest.php:54
+#: includes/templates/follow-author/user.php:20
+#@ wpwfp
+msgid "..."
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:37
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:29
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:37
+#@ wpwfp
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:40
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:32
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:40
+#@ wpwfp
+msgid "Apply"
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:58
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:123
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:51
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:119
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:60
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:144
+#@ wpwfp
+msgid "Followed Date"
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:59
+#: includes/templates/subscribe-manage/follow-authors-listing/follow-authors-listing.php:124
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:52
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:120
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:61
+#: includes/templates/subscribe-manage/follow-terms-listing/follow-terms-listing.php:145
+#@ wpwfp
+msgid "Actions"
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-authors.php:97
+#@ wpwfp
+msgid "You need to be logged in to your account to see your followed  authors."
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:49
+#: includes/templates/subscribe-manage/follow-posts-listing/follow-posts-listing.php:117
+#@ wpwfp
+msgid "Post Title"
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-posts.php:97
+#@ wpwfp
+msgid "You need to be logged in to your account to see your followed posts."
+msgstr ""
+
+#: includes/templates/subscribe-manage/follow-terms.php:97
+#@ wpwfp
+msgid "You need to be logged in to your account to see your followed  terms."
+msgstr ""
+
+#: includes/templates/unsubscribe/content.php:27
+#@ wpwfp
+msgid "Your email:"
+msgstr ""
+
+#: includes/templates/unsubscribe/content.php:30
+#@ wpwfp
+msgid "Enter email address..."
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:28
+#: includes/wpw-fp-post-types.php:29
+#@ wpwfp
+msgid "Follow Post"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:30
+#: includes/wpw-fp-post-types.php:64
+#: includes/wpw-fp-post-types.php:98
+#: includes/wpw-fp-post-types.php:132
+#: includes/wpw-fp-post-types.php:166
+#: includes/wpw-fp-post-types.php:200
+#@ wpwfp
+msgid "Add New"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:31
+#@ wpwfp
+msgid "Add New Follow Post"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:32
+#@ wpwfp
+msgid "Edit Follow Post"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:33
+#@ wpwfp
+msgid "New Follow Post"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:34
+#@ wpwfp
+msgid "All Follow Posts"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:35
+#@ wpwfp
+msgid "View Follow Post"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:36
+#@ wpwfp
+msgid "Search Follow Post"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:37
+#@ wpwfp
+msgid "No follow posts found"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:38
+#@ wpwfp
+msgid "No follow posts found in Trash"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:40
+#@ wpwfp
+msgid "Follow Posts"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:62
+#: includes/wpw-fp-post-types.php:74
+#@ wpwfp
+msgid "Follow Post Logs"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:63
+#@ wpwfp
+msgid "Follow Post Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:65
+#@ wpwfp
+msgid "Add New Follow Post Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:66
+#@ wpwfp
+msgid "Edit Follow Post Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:67
+#@ wpwfp
+msgid "New Follow Post Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:68
+#@ wpwfp
+msgid "All Follow Post Logs"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:69
+#@ wpwfp
+msgid "View Follow Post Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:70
+#@ wpwfp
+msgid "Search Follow Post Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:71
+#@ wpwfp
+msgid "No follow post logs found"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:72
+#@ wpwfp
+msgid "No follow post logs found in Trash"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:96
+#: includes/wpw-fp-post-types.php:97
+#@ wpwfp
+msgid "Follow Term"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:99
+#@ wpwfp
+msgid "Add New Follow Term"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:100
+#@ wpwfp
+msgid "Edit Follow Term"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:101
+#@ wpwfp
+msgid "New Follow Term"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:102
+#@ wpwfp
+msgid "All Follow Terms"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:103
+#@ wpwfp
+msgid "View Follow Term"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:104
+#@ wpwfp
+msgid "Search Follow Term"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:105
+#@ wpwfp
+msgid "No follow terms found"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:106
+#@ wpwfp
+msgid "No follow terms found in Trash"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:108
+#@ wpwfp
+msgid "Follow Terms"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:130
+#: includes/wpw-fp-post-types.php:142
+#@ wpwfp
+msgid "Follow Term Logs"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:131
+#@ wpwfp
+msgid "Follow Term Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:133
+#@ wpwfp
+msgid "Add New Follow Term Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:134
+#@ wpwfp
+msgid "Edit Follow Term Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:135
+#@ wpwfp
+msgid "New Follow Term Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:136
+#@ wpwfp
+msgid "All Follow Term Logs"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:137
+#@ wpwfp
+msgid "View Follow Term Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:138
+#@ wpwfp
+msgid "Search Follow Term Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:139
+#@ wpwfp
+msgid "No follow term logs found"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:140
+#@ wpwfp
+msgid "No follow term logs found in Trash"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:164
+#: includes/wpw-fp-post-types.php:165
+#@ wpwfp
+msgid "Follow Author"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:167
+#@ wpwfp
+msgid "Add New Follow Author"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:168
+#@ wpwfp
+msgid "Edit Follow Author"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:169
+#@ wpwfp
+msgid "New Follow Author"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:170
+#@ wpwfp
+msgid "All Follow Authors"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:171
+#@ wpwfp
+msgid "View Follow Author"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:172
+#@ wpwfp
+msgid "Search Follow Author"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:173
+#@ wpwfp
+msgid "No follow authors found"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:174
+#@ wpwfp
+msgid "No follow authors found in Trash"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:176
+#@ wpwfp
+msgid "Follow Authors"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:198
+#: includes/wpw-fp-post-types.php:210
+#@ wpwfp
+msgid "Follow Author Logs"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:199
+#@ wpwfp
+msgid "Follow Author Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:201
+#@ wpwfp
+msgid "Add New Follow Author Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:202
+#@ wpwfp
+msgid "Edit Follow Author Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:203
+#@ wpwfp
+msgid "New Follow Author Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:204
+#@ wpwfp
+msgid "All Follow Author Logs"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:205
+#@ wpwfp
+msgid "View Follow Author Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:206
+#@ wpwfp
+msgid "Search Follow Author Log"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:207
+#@ wpwfp
+msgid "No follow author logs found"
+msgstr ""
+
+#: includes/wpw-fp-post-types.php:208
+#@ wpwfp
+msgid "No follow author logs found in Trash"
+msgstr ""
+

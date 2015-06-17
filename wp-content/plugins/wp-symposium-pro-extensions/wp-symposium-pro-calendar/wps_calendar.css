@@ -1,0 +1,249 @@
+/* Event list */
+
+.wps_events_posts {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.wps_event_post {
+	border-top: 1px solid #dfdfdf;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	overflow: auto;
+	clear: both;
+}
+
+.wps_event_title {
+	width: 40%;
+	float: left;
+}
+
+.wps_event_count {
+	width: 10%;
+	text-align:center;
+	float: left;
+}
+
+.wps_event_freshness {
+	width: 20%;
+	float: left;
+}
+
+/* Events Table */
+
+#wps_events_table {
+	width:100%;
+	border:0px
+}
+
+#wps_events_table tr, #wps_events_table td {
+	border: 0px;
+	height: 80px;
+}
+
+#wps_events_table_header_top {
+	height: 1.6em !important;
+}
+
+#wps_events_table_header_month {
+	text-align: center;
+	font-size: 1.4em;
+	height: 1.6em !important;
+}
+
+#wps_events_table_header_next, #wps_events_table_header_prev {
+	font-size: 2.0em;
+	height: 1.6em !important;
+}
+#wps_events_table_header_next a, #wps_events_table_header_prev a {
+	text-decoration: none;
+}
+#wps_events_table_header_prev {
+}
+#wps_events_table_header_next {
+	text-align: right;
+}
+
+#wps_events_table_header {
+	height: 20px !important;
+	border:1px solid red;
+}
+
+#wps_events_table_header td {
+	height: 20px;
+	border-bottom: 1px solid #afafaf;
+	text-align: center;
+}
+
+.wps_event_not_today {
+	text-align: center;
+}
+.wps_event_today {
+	text-align: center;
+	background-color: #dfdfdf;
+	font-weight: bold;
+}
+
+.wps_event_weekend {
+	background-color: #efefef;
+	padding: 0 !important;
+}
+
+.wps_event_content {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	min-height: 20px;
+}
+
+
+/* Event item */
+
+#wps_event_post_title {
+	margin-bottom:20px;
+}
+
+#wps_event_datetime {
+	margin-bottom:20px;
+	font-size: 1.4em;
+}
+
+#wps_event_featured_image {
+	clear: both;
+	margin-bottom: 20px;
+}
+
+#wps_event_message_freshness {
+	font-style: italic;
+	margin-bottom:10px;
+}
+
+.wps_event_message_comment {
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	position: relative;
+	border-bottom: 1px solid #dfdfdf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   	box-sizing: border-box;         /* Opera/IE 8+ */		
+}
+
+#wps_event_theuploadform {
+	margin-top:30px;
+}
+
+.wps_event_message_comment_author {
+	text-align: center;
+	float: left;
+	font-size: 0.8em;
+}
+
+#wps_event_comment {
+	width:100%;
+	height: 100px;
+	margin-bottom:4px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+#wps_event_comment_button {
+	margin-bottom:10px;
+}
+
+/* Add/Edit Calendar Event */
+
+.wps_event_label {
+	font-weight: bold;
+}
+
+#wps_calendar_title {
+	width:100%;
+	margin-bottom: 5px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+
+}
+
+#wps_calendar_post {
+	width:100%;
+	height: 300px;
+	margin-bottom: 5px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+.wps_calendar_edit_column {
+	float:left;
+	width: 170px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+/* Attachments */
+
+.wps_calendar_item_attachment {
+	cursor: pointer;
+	margin-right:10px;
+	margin-bottom:15px;
+	float: left;
+}
+.wps_calendar_item_attachment_full {
+	display:none;
+}
+.file-input-wrapper {
+}
+.wps_calendar_image_upload_button {
+	float:left;
+}
+
+#wps_calendar_attachment_dialog img {
+	-moz-box-shadow: 0 0 7px #000;
+	-webkit-box-shadow: 0 0 7px #000;
+	-o-box-shadow: 0 0 7px #000;
+	-ms-box-shadow: 0 0 7px #000;
+	box-shadow: 0 0 7px #000;
+}
+
+/* Calendar Settings */
+
+.wps_calendar_settings {
+	z-index: 100;
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	right:0px;
+	height:15px;
+	width:15px;
+}
+.wps_calendar_settings img {
+	width:15px;
+	height:15px;
+}
+
+
+.wps_calendar_settings_options {
+	z-index: 101;
+	display:none;
+	position:absolute;
+	top:5px;
+	right:0px;
+	width:100px;
+	font-size: 10px;
+	padding: 5px;
+	text-align:center;
+	border:1px solid #666;
+	background-color:#fff;
+	color: #666;
+}
+.wps_forum_settings_options a {
+	color: #666 !important;
+}
+.wps_forum_settings_options a:hover {
+	color: #000 !important;
+}

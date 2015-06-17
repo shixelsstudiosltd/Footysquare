@@ -1,0 +1,30 @@
+#wps_forum_image_upload {
+}
+.wps_forum_item_attachment {
+	cursor: pointer;
+	margin-right:10px;
+	margin-bottom:15px;
+	float: left;
+}
+.wps_forum_item_attachment_full {
+	display:none;
+}
+#wps_forum_comment_image_upload {
+}
+.file-input-wrapper {
+}
+.wps_forum_image_upload_button {
+	float:left;
+}
+
+#wps_forum_attachment_dialog img {
+	-moz-box-shadow: 0 0 7px #000;
+	-webkit-box-shadow: 0 0 7px #000;
+	-o-box-shadow: 0 0 7px #000;
+	-ms-box-shadow: 0 0 7px #000;
+	box-shadow: 0 0 7px #000;
+}
+
+.wps_forum_delete_attachment:hover {
+    background-color: #fff;
+}

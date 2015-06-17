@@ -1,0 +1,39 @@
+.wps_show_posts_item {
+	clear: both;
+	overflow: auto;
+	margin-bottom: 10px;
+  	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+.wps_show_posts_item_image {
+	float: left;
+}
+
+.wps_show_posts_item_image_other {
+  	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   	box-sizing: border-box;         /* Opera/IE 8+ */	
+
+}
+
+.wps_show_posts_item_title {
+	width: 40%;
+	float: left;
+}
+
+.wps_show_posts_item_date {
+	width: 10%;
+	float: left;
+}
+
+.wps_show_posts_item_author {
+	width: 10%;
+	float: left;
+}
+
+.wps_show_posts_item_content {
+	width: 40%;
+	float: left;
+}

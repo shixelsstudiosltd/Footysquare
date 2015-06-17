@@ -1,0 +1,58 @@
+body{
+	direction: rtl;
+	}
+/*==== Float Right Start ====*/
+	.logo, nav.navigation, nav.navigation li, .searchform input, .outer-banner .element_size_67, .pix-label .pix-tittle, .countdown-section .pix-label, header.pix-heading-title h2, .blog-headlines .pix-feature, .blog-home .pix-feature article .text .post-options li, .blog-home .blog-headlines .blog-bottom .btn, .blog-listing-text .post-options li, .our-team-sec .tabs .nav.nav-tabs li article figure, .our-team-sec .tabs .nav.nav-tabs li h6 a, .tab-content article figure figcaption .pix-player-no, #wp-calendar tfoot a, .widget-recent-blog article figure, .pix-content-wrap .post-options li, .widget-twitter .twitter_sign i.fa-twitter, .widget .tagcloud a, .wpcf7 form p .wpcf7-form-control span, .wpcf7 form p input, .wpcf7 form p input[type="submit"], .widget_pages ul li a, .widget_recent_comments ul li a, .widget_recent_entries ul li a, .widget_recent_entries ul li a, .widget_layered_nav ul li a, .widget_categories ul li a, .product-categories li a, .widget_archive ul li a, .widget_links ul li a, .widget_meta ul li a, .event.event-listing article .calendar-date, .event-listing article .text, .featured-event .pix-sc-team ul li, .fluid-tab-horizontal .nav-tabs li, .share-post .social-network, .next-post-paginate, .next-post-paginate a, .next-post-paginate ul li a, .blog-bottom .post-options, .blog-medium article figure, .post-options li, #comments .thumblist ul li figure, #comments .thumblist ul li .text header, .contact-info ul li, .breadcrumbs ul, .subtitle, .contact-info ul li i, #respond form p input[type="text"], #respond form textarea, #respond form span, #respond form input[type="submit"], .our-team-sec article, .team-sec, .teamdetail figure figcaption i, .teamdetail figure figcaption h2, .teamdetail article .player-info ul li span, .post-tags, .pix-media-attachment a, .cs_shop_wrap .woocommerce-result-count, .page-title, .woocommerce-result-count, .woocommerce-pagination ul, .woocommerce-pagination ul li, .pagination ul li, .cart-sec, .widget-gallery .gallery ul li, .featured-event .post-options, .woocommerce-validated label, .input-checkbox, .woocommerce .checkout .col-2 h3, .woocommerce-page .checkout .col-2 h3, .woocommerce #payment div.form-row, .blog-vertical .cycle-slideshow, .team-vertical, .sliderpagination article figure, .home-info a, .countdown-section .btn, .countdown-buttons div{
+		float: right !important
+	}
+/*==== Float Right Closed ====*/
+/*==== Float Left Start ====*/
+	.rightheader, .blog-home .blog-headlines .pix-feature article .px-comments, .blog-headlines .post-options li.px-comments, .our-team-home-view .tabs .nav.nav-tabs, .match-result, .blog-bottom .btn, .pagination ul > li.next, .pix-zoom i, span.px-count, .blog_detail .social-network, form.woocommerce-ordering, .navigation ul ul > li.parentIcon > a:before, .searcharea, .option-sec .pix-btn-open{
+		float: left !important;
+	}
+/*==== Float Left Closed ====*/ 
+/*==== Text Aling right Start ====*/
+	.our-team-sec .tabs .nav.nav-tabs li article .text, .our-team-sec article figure figcaption, .widget-recent-blog article .text, .rich_editor_text p, .widget_nav_menu ul li a, .widget_pages ul li a, .match-detail .detail-text, .pix-blog.blog-large article .text, .blog-grid article .text, .blog-medium article .text, #comments .thumblist ul li .text, .pix-blog.blog-carousel-view .text, .contact-info address, .gallerysec.gallery .text, .contact-info ul li.text, .contact-info.sec-info ul li, .woocommerce #payment ul.payment_methods li, .woocommerce-page #payment ul.payment_methods li, .cart_totals tbody tr th, .teamdetail article figure{
+		text-align: right;
+	}
+/*==== Text Aling right Closed ====*/
+/*==== Text Aling left Start ====*/
+	{
+		text-align: left;
+	}
+/*==== Text Aling left Closed ====*/
+/*==== Text Aling Center Start ====*/
+	{
+		text-align: center;
+	}
+/*==== Text Aling Center Closed ====*/
+#searcharea:before{ left: 20px; right: auto;} #searcharea{ left:0; right:auto;} .searchform button{left: 11px; right: auto;}
+#innermain .outer-banner .element_size_67{padding: 0 0 0 5px;} .outer-banner .element_size_33{ padding: 0 5px 0 0;} .countdown-section .pix-label{margin: 0 0 25px 0;}
+.blog-home figure figcaption, .blog-vertical .tab-content header.pix-heading-title h2:before{ right: 0; left: auto;} #defaultCountdown span:before{ right: -18px; left: auto;} .pix-sc-team li figure{ margin: 0 20px 0 0;} .blog-home .tabs.horizontal .nav-tabs, .pix-player-no, .widget_search form label{ left: 0; right:auto;} .blog-home .nav-tabs li a{margin: 0 5px 0 0;} .blog-headlines .pix-feature{padding: 0 0 0 25px; border-left: 1px solid hsl(0, 0%, 89%); border-right: none;} .pix-feature .featured{ right: -15px; left:auto;} .pix-feature .featured:before{ transform: rotate(-181deg); right: 0; left: auto;} .blog-listing-text{ padding: 0 25px 0 0;} .pix-label:before{ display:none;}
+.our-team-sec .tabs .nav.nav-tabs li article .text{ margin:0 80px 0 0;} .our-team-sec .tabs .nav.nav-tabs li article:hover:before{ right:-16px; transform: rotate(179.95deg); border-right:none;  border-width: 37px 17px 37px 0;} .our-team-sec article figure figcaption h6{ padding:0 0 0 22%;} .latest-video .minus-column article .text .btn{ margin:0 0 0 6px} .widget-recent-blog article .text{ margin:0 73px 0 0;} .twitter_sign .cs-post-title{margin: 0 35px 0 0;} .tweets-wrapper article p{margin: 0 40px 10px 0;} .widget_search form label:before{left: 8px; top: 8px;} .widget .tagcloud a{margin: 0 0 3px 3px;} .wpcf7 form p .wpcf7-form-control span input{ margin:0 0 0 7px;} .event.event-listing article .btn{right: auto; left: 30px;}, .next-post-paginate:first-child{padding: 0 0 0 35px;} .next-post-paginate a i{transform: scale(-1); margin:0 0 0 8px} .next-post-paginate ul li a{ margin:0 0 0 7px;} blockquote{border-right:7px solid hsl(0, 0%, 40%); border-left:none; padding:0 20px 0 0;} .our-team-home-view .tabs .tab-content article{ margin-right:0;} .pagination ul > li.next i{ margin:0 12px 0 0;} .blog-bottom:before{ right: 15px; left: auto;} .blog-medium article .text{ margin:0 170px 0 0;} #comments .thumblist ul li .text{ margin:0 80px 0 0;} #comments .thumblist ul li .text .bottom-comment:before{right: -4px; left:auto;} #comments .thumblist ul li .text .bottom-comment{ margin:0 135px 0 0; padding:0 20px 0 0; border-right: 1px solid hsl(0, 0%, 87%); border-left: none;} .password_protected form input[type="text"]{margin: -3px 0 0 -4px;} .blog-vertical .tab-content header.pix-heading-title h2{ margin:0 -14px 0 0;} .blog-vertical .tab-content header.pix-heading-title h2:before{ transform:rotate(0deg);  border-width: 0 0 15px 15px;} .our-team-sec .tabs .nav.nav-tabs li.bmark_active article:before{ border-width: 37px 17px 37px 0; transform: rotate(179.95deg); border-right:none; right:-16px;} #respond form .form-icons{ left: 20%; right:auto;} #respond form .form-icons small{left: 20px; right:auto;} #respond form p input[type="text"], #respond form textarea{ padding:0 15px 0 0;} #respond form span{margin: 8px 20px 0 0;} .btn i{ margin:0 0 0 10px;} .is-countdown span:before{ right:-10px; left: auto;} .our-team-sec article figure figcaption .pix-post-title{ padding:0 8px 0 0;} .our-team-sec article figure figcaption{ right: 4px; left: auto;} .team-detail-text{padding: 0 20px 20px 0;} .player-twitt-feeds .twitter_sign:after{ right: 24px; left:auto;} .teamdetail figure figcaption i{ margin: 6px 0 0 8px;} .detail_text .post-options:before{  right: 15px; left:auto; bottom: -5px;} .next-post-paginate:first-child{padding: 0 0 0 35px;} .next-post-paginate{ padding: 0 35px 0 0;} .pix-blog.blog-medium article:before{ right: 15px; left: auto;} .pix-content-wrap{ padding:20px 0 0 20px;} .pix-media-attachment a{ margin: 0 0 0 10px;} .children{ padding: 0 30px 0 0;} .page-title{ margin:0 0 0 10px;} #lang_sel a.lang_sel_sel{ background-position:0 4px;} .navigation ul ul ul{ right: 108%; left: auto;} .navigation ul ul > li.parentIcon > a:before{ transform: scale(-1);} #lang_sel{ margin: 12px 15px 0 0;} a.pp_close, .pp_nav .pp_play, .pp_nav .pp_pause, a.pp_arrow_previous, a.pp_arrow_next, a.pp_previous, a.pp_next, a.pp_expand, a.pp_contract{text-indent: 10000px;} .contact-info{padding:0 0 0 40px;}
+.post-options li i{ margin:0 0 0 6px;} .event-listing article .text .pix-post-title{ margin:0;} .news-section article .pix-btn-open i{ margin:0 0 0 3px;} .cycle-pager{ left: 20px; right:auto;} .woocommerce-info:before{ right: 1em; left:auto;} .woocommerce-info{padding: 1em 3.5em 1em 1em;} .chosen-container-single .chosen-single div{ left: 0; right:auto;} .chosen-container-single .chosen-single{padding: 0 8px 0 0;} .chosen-container-single .chosen-single span{ margin:0 0 0 26px;} .woocommerce #payment ul.payment_methods li input, .woocommerce-page #payment ul.payment_methods li input{margin: 0 0 0 1em;} .woocommerce #payment div.form-row{padding: 15px 15px 0 0;} .pagination ul > li.prev i{margin: 0 0 0 12px;} .twitter_sign .messagebox:before{right: -4px; left:auto; transform: rotate(-50deg); margin-right:-9px;} .teamdetail article figure{ width:100%;} .blog-vertical header.pix-heading-title:before{right:0px; left:auto; transform:rotate(-85deg); margin:0 -9px 0 0;} .sliderpagination ul li.cycle-pager-active:before{right:-17px; left:auto; border-width:38px 0px 40px 17px;} .blog-vertical header.pix-heading-title h2{margin-right:-9px;} .our-team-sec article figure figcaption h6{ padding:0 5px 0 0;}
+.sliderpagination.pxleft-team ul li.cycle-pager-active:before{border-width:45px 0px 55px 17px; right:-17px;} .team-vertical article figcaption .caption{ margin:-7px 50px 0 0;}.team-vertical article figcaption .caption h6{ padding-right:8px;} .blog-vertical header.pix-heading-title{ margin:0 -9px 0 0;}
+.team-vertical article figcaption .pix-player-no{
+	right:0px;
+	left:auto;
+}
+.add-calender{
+	border-left:1px solid #FFFFFF;
+}
+.pagination ul > li.next i{
+	transform:scale(-1);
+}
+
+/*====== RTL Responsive ======*/
+@media (min-width: 768px) and (max-width: 990px) {}
+
+@media (max-width: 767px)	{
+	.logo{float:none !important;} #searcharea:before{left: 25px;} .pix-blog.blog-home .nav-tabs > li{ float:right;} .blog-home .pix-heading-title{ padding:0;} .blog-medium article .text{ margin-right: 0;} .blog_detail .share-post .social-network{ float:right !important;} #respond form .form-icons{ left: 29%; right:auto !important;} .is-countdown span:before{ right:-6px; font-size:11px;}
+}
+
+@media (max-width: 480px) {
+	.pix-blog.blog-home .nav-tabs > li{ width:100%;}
+}
+
+@media screen and (min-width: 991px) and (max-width: 1054px){}
+/*====== RTL Responsive Close ======*/

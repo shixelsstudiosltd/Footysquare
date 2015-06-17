@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">events</custom-type>
+		<custom-type translate="1">player</custom-type>
+		<custom-type translate="1">px_gallery</custom-type>
+		<custom-type translate="1">pointtable</custom-type>
+	</custom-types>
+	
+	<taxonomies>
+		
+		<taxonomy translate="1">event-category</taxonomy>
+		<taxonomy translate="1">event-tag</taxonomy>
+		<taxonomy translate="1">team-category</taxonomy>
+		<taxonomy translate="1">player-department</taxonomy>
+		<taxonomy translate="1">px_gallery-category</taxonomy>
+		<taxonomy translate="1">season-category</taxonomy>
+	</taxonomies>
+</wpml-config>

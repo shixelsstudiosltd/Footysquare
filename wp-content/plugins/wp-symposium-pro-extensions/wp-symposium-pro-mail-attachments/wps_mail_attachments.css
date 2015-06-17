@@ -1,0 +1,24 @@
+#wps_mail_image_upload {
+}
+.wps_mail_item_attachment {
+	cursor: pointer;
+	width: 150px;
+	margin-bottom:20px;
+	margin-right:10px;
+	float: left;
+}
+.wps_mail_item_attachment_full {
+	display:none;
+}
+.file-input-wrapper {
+}
+.wps_activity_image_upload_button {
+}
+
+#wps_mail_attachment_dialog img {
+	-moz-box-shadow: 0 0 7px #000;
+	-webkit-box-shadow: 0 0 7px #000;
+	-o-box-shadow: 0 0 7px #000;
+	-ms-box-shadow: 0 0 7px #000;
+	box-shadow: 0 0 7px #000;
+}

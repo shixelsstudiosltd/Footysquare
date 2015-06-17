@@ -1,0 +1,6 @@
+#wps_add_subscribe_unsubscribe_button,
+#wps_add_forum_subscribe_unsubscribe_button,
+.wps_forum_unsubscribe_icon
+{
+	cursor: pointer;
+}

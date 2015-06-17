@@ -1,0 +1,49 @@
+.wps_activity_favourite_icon {
+    float: right;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.wps_favourite_item {
+	margin-bottom:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+
+.wps_favourite_link {
+    float: right;
+    display: none;
+    margin-top: -2px;
+}
+
+.wps_favourite_item_avatar {
+	padding-top:4px;
+}
+
+.wps_p_content {
+}
+.wps_p_content a {
+}
+.wps_quoted_content {
+    border: 1px solid #efefef;
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 6px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Image attachments */
+
+.wps_activity_item_attachment {
+	cursor: pointer;
+	float: left;
+	margin-bottom:20px;
+	margin-right:10px;
+}
+.wps_activity_item_attachment_item {
+    margin-bottom:10px;
+}
+.wps_activity_item_attachment_full {
+	display:none;
+}

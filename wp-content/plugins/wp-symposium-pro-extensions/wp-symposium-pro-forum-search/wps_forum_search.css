@@ -1,0 +1,23 @@
+/* Forum Search */
+
+h2.wps_forum_search_label_results {
+	margin-bottom:20px;
+}
+
+.wps_forum_search_post {
+	margin-bottom:10px;
+	overflow:auto;
+}
+
+.wps_forum_search_highlight {
+	font-weight: bold;
+}
+
+.wps_forum_search_date {
+	font-size: 0.8em;
+}
+
+.wps_forum_search_author {
+	font-size: 0.8em;	
+}
+

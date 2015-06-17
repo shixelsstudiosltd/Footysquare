@@ -1,0 +1,29 @@
+.pix-colr, .pix-colrhvr:hover,.price-table article:hover h3,.breadcrumbs ul li.pix-active,#footer p a:hover,
+/* New Clases Add*/.event-listing article:hover .text .pix-post-title a,.cs-post-title a,.pagination .active,
+.is-countdown span {
+	color: #e95842 !important;
+}
+
+.pix-bgcolr,.pix-bgcolrhvr:hover,nav.navigation > ul > li > a:before,.cart-sec span,.navigation ul ul li:hover > a,.navigation ul ul li.current-menu-item > a,.price-table article:hover .pix-price-box, .event.evevt-listing article:hover .text .btn-boobked, .match-result.match-lost p,.event.event-listing.event-listing-v2 article:hover,.cycle-pager-active,.widget .tagcloud a:hover, .event.event-listing article:hover .text .btn-boobked, .flex-direction-nav li a:hover /**/, .our-team-sec article:hover figure figcaption .pix-post-title a,
+#respond form input[type="submit"],#wp-calendar caption,.gallery ul li figure figcaption a,.woocommerce-pagination ul li a:hover,.woocommerce-pagination ul li span,.woocommerce-tabs .tabs .active a, span.match-category.cat-neutral, .event.event-listing article:hover .text .btn,.widget_search form input[type="submit"], .woocommerce .button,
+/* New Clases Add*/.searchform button,.tabs.horizontal .nav-tabs li.active a,p.stars span a.active,.event.event-listing.event-listing-v2 .btn-viewall,.featured-title,.onsale,.gallery ul li:hover .text,
+.pix-feature article .blog-bottom .btn,.pix-feature .featured,.blog-vertical .tab-content header.pix-heading-title h2,header #lang_sel a:hover, header #lang_sel ul ul a:hover,.post-tags a:hover {
+	background-color: #e95842 !important;
+}
+
+.pix-bdrcolr ,.tabs.horizontal .nav-tabs li.active,.address-info .text,.subtitle h1,.about-us article .text,blockquote,
+.pagination > ul > li > a:before,.pagination > ul > li > span.active:before{
+	border-color: #e95842 !important;
+}
+
+#banner .flexslider figcaption .pix-desc h3 span
+/* New Clases Add*/ {
+	 box-shadow: -10px  0 0 #e95842,10px  0 0 #e95842 !important;   
+}
+.our-team-sec article:hover figure figcaption .pix-post-title a{
+	 box-shadow: -10px  0 0 #e95842,10px  0 0 #e95842 !important;   
+}
+
+#sliderpagination ul li:before{
+    border-color: transparent #e95842 !important;
+}

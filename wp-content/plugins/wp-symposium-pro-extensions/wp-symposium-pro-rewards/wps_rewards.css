@@ -1,0 +1,23 @@
+.wps_rewards_row {
+	clear: both;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+.wps_rewards_avatar {
+	float: left;
+}
+
+.wps_rewards_row_score {
+	float: right;
+}
+
+.wps_rewards_row_user {	
+	float:left;
+}
+
+.wps_badge {
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}

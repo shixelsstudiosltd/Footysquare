@@ -1,0 +1,29 @@
+.__wps__toolbar {
+	width: 175px;
+	float: right;
+	height:26px;
+}
+
+.__wps__toolbar div {
+	cursor: pointer;
+	width:15px;
+	height:15px;
+	float: right;
+	margin-left: 5px;
+}
+
+.redactor_box {
+	clear: both;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+.redactor_box iframe {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+	padding-right: 0px;
+}
+.redactor_toolbar {
+	clear: both;
+}

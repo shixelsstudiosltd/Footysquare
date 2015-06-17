@@ -1,0 +1,49 @@
+<?php
+// Quick Start
+add_action('wps_admin_quick_start_hook', 'wps_admin_quick_start_mail');
+function wps_admin_quick_start_mail() {
+
+	echo '<div style="margin-right:10px; float:left">';
+	echo '<form action="" method="POST">';
+	echo '<input type="hidden" name="wpspro_quick_start" value="mail" />';
+	echo '<input type="submit" class="button-secondary" value="'.__('Add Messages Page', WPS2_TEXT_DOMAIN).'" />';
+	echo '</form></div>';
+}
+
+add_action('wps_admin_quick_start_form_save_hook', 'wps_admin_quick_start_mail_save', 10, 1);
+function wps_admin_quick_start_mail_save($the_post) {
+
+	if (isset($the_post['wpspro_quick_start']) && $the_post['wpspro_quick_start'] == 'mail'):
+
+$post_content = '['.WPS_PREFIX.'-mail-recipients]
+<div style="float:right">['.WPS_PREFIX.'-mail-search]</div>
+['.WPS_PREFIX.'-mail-post]
+<div style="float:left">['.WPS_PREFIX.'-mail-backto]</div>
+['.WPS_PREFIX.'-mail]
+['.WPS_PREFIX.'-mail-comment]
+['.WPS_PREFIX.'-mail-backto]';
+    
+    
+		// Mail Page
+		$post = array(
+		  'post_content'   => $post_content,
+		  'post_name'      => 'messages',
+		  'post_title'     => 'Messages',
+		  'post_status'    => 'publish',
+		  'post_type'      => 'page',
+		  'ping_status'    => 'closed',
+		  'comment_status' => 'closed',
+		);  
+
+		$new_id = wp_insert_post( $post );
+
+		echo '<div class="wps_success">';
+			echo sprintf(__('Messages Page (%s) added. [<a href="%s">view</a>]', WPS2_TEXT_DOMAIN), get_permalink($new_id), get_permalink($new_id)).'<br /><br />';
+			echo '<strong>'.__('Do not add it again or you will create another WordPress page!', WPS2_TEXT_DOMAIN).'</strong><br /><br />';
+			echo sprintf(__('You might want to add it to your <a href="%s">WordPress menu</a>.', WPS2_TEXT_DOMAIN), "nav-menus.php");
+		echo '</div>';
+
+	endif;
+
+}
+?>

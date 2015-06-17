@@ -1,0 +1,238 @@
+/* Search */
+.wps_mail_search {
+    float:left;
+}
+.wps_mail_reset {
+    float: left;
+    margin-left: 6px;
+    font-size: 0.8em;
+}
+
+/* New recipient */
+
+#wps_add_recipient {
+    border: 0;
+    cursor: pointer;
+}
+#wps_add_recipient img {
+    -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+    box-shadow: none;
+}
+
+#wps_mail_new_recipients_div {
+    display: none;
+    margin: 20px auto 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+#wps_mail_new_recipients_submit {
+    margin-left: 0;
+    margin-top: 5px;
+}
+
+/* Delete recipient */
+
+.wps_mail_delete_recipient {
+    width: 12px;
+    height: 12px;
+    top: 3px;
+    right: 3px;
+    cursor:pointer;
+    position:absolute;
+    background-color: #fff;
+    padding: 2px;
+}
+
+/* New Post */
+
+#wps_mail_title {
+	width:100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+#wps_mail_textarea {
+	width: 100%;
+	height: 150px;
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid #dfdfdf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   	box-sizing: border-box;         /* Opera/IE 8+ */		
+}
+
+/* Mail item */
+
+#wps_mail_message_recipients {
+	overflow: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.wps_mail_message_recipient {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 5px 10px 0;
+	word-wrap: break-word;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	font-size: 0.8em;
+}
+
+#wps_mail_message_freshness {
+	font-style: italic;
+	margin-bottom:10px;
+}
+
+.wps_mail_message_comment {
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid #dfdfdf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+   	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+   	box-sizing: border-box;         /* Opera/IE 8+ */		
+}
+
+.wps_mail_message_comment_author {
+	text-align: center;
+	float: left;
+	font-size: 0.8em;
+}
+
+#wps_mail_comment {
+	width:100%;
+	height: 200px;
+	margin-bottom:10px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+}
+
+#wps_mail_post_close_button {
+	float:right;
+}
+
+/* Mail box */
+
+.wps_mail_remove,
+.wps_mail_restore {
+    float: left;
+    width: 5%;
+}
+.wps_mail_posts {
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.wps_mail_post {
+	border-top: 1px solid #dfdfdf;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	overflow: auto;
+	clear: both;
+}
+
+.wps_mail_post_hidden {
+    font-style: italic;
+}
+
+.wps_mail_post_unread {
+	font-weight: bold;
+}
+
+.wps_mail_recipients {
+	width: 25%;
+	float: left;
+}
+
+.wps_mail_recipient {
+	clear: both;
+}
+
+.wps_mail_title {
+	width: 40%;
+	float: left;
+}
+
+.wps_mail_count {
+	width: 10%;
+	text-align:center;
+	float: left;
+}
+
+.wps_mail_freshness {
+	width: 20%;
+	float: left;
+}
+
+/* Popup mail */
+
+.wps_mail_to_user_post_popup_div * {
+	text-align: left;
+}
+
+.wps_mail_to_user_post_popup_div {
+	z-index: 9999999;
+	-moz-box-shadow: 0 0 7px #000;
+	-webkit-box-shadow: 0 0 7px #000;
+	-o-box-shadow: 0 0 7px #000;
+	-ms-box-shadow: 0 0 7px #000;
+	box-shadow: 0 0 7px #000;
+	width: 400px;
+	height: 270px;
+	background-color: #fff;
+	padding: 10px;	
+}
+
+.wps_mail_popup_recipient {
+	margin-bottom: 5px;
+}
+.wps_mail_popup_message {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */	
+	width:100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.wps_mail_popup_button {
+	margin-left: 0;
+}
+
+.wps_mail_popup_cancel_button {
+	float: right;
+	margin-right: 0;
+}
+
+/* Flag */
+
+#wps_alerts_mail_flag {
+    position: relative;
+}
+#wps_alerts_mail_flag_unread {
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+}
+
+/* Labels */
+
+.wps_mail_hidden,
+#wps_mail_mark_all_read {
+    font-size: 0.8em;
+    padding-right: 10px;
+}
